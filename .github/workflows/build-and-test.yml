@@ -13,6 +13,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
+<<<<<<< HEAD
       - run: npm install
       - run: npm run lint
       - run: npm test
@@ -22,6 +23,8 @@ jobs:
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest] # Define the OSes to build
     runs-on: ${{ matrix.os }} # Use the OS from the matrix
+=======
+>>>>>>> 1400a87fe3b55c60ab58fd12b6dd97c90c61bdf9
 
     steps:
       - uses: actions/checkout@v4
@@ -31,6 +34,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+<<<<<<< HEAD
       - name: Build application
         run: npm run build
       - name: Upload artifact
@@ -38,3 +42,10 @@ jobs:
         with:
           name: calculator-${{ matrix.os }} # Name the artifact based on the OS
           path: dist/ # The folder where the build output is stored
+=======
+      - name: Lint
+        run: npm run lint
+
+      - name: Run unit tests
+        run: npm test
+>>>>>>> 1400a87fe3b55c60ab58fd12b6dd97c90c61bdf9
