@@ -1,0 +1,48 @@
+commit 5939a1cefd89bb39e177778de9dcc62508acfddc
+Author: shenlongssd <long.hy.cit20@eiu.edu.vn>
+Date:   Mon Jul 6 15:51:54 2026 +0700
+
+    CI: Add workflow for running tests automatically four
+
+commit 539ca2a8fa7d126d62e452c528529f7da32f1462
+Merge: 0b6e024 1400a87
+Author: shenlongssd <long.hy.cit20@eiu.edu.vn>
+Date:   Mon Jul 6 15:41:03 2026 +0700
+
+    "CI: Add workflow for Artifacts tests automatically"
+
+commit 0b6e0244df95737cb881b809b78f4a0a41e7dd2a
+Author: shenlongssd <long.hy.cit20@eiu.edu.vn>
+Date:   Mon Jul 6 15:38:13 2026 +0700
+
+    CI: Update workflow to include build and release steps
+
+commit 1400a87fe3b55c60ab58fd12b6dd97c90c61bdf9
+Author: hygialong <long.hy.cit20@eiu.edu.vn>
+Date:   Mon Jul 6 14:56:12 2026 +0700
+
+    Fix indentation for Node.js setup in workflow
+
+commit 8f986ff4d76b6216da98cf16baf10200c9ccee5b
+Author: shenlongssd <long.hy.cit20@eiu.edu.vn>
+Date:   Mon Jul 6 14:53:24 2026 +0700
+
+    CI: Add workflow for running tests automatically third
+
+commit 2cbd8945268e8e9907d007da38208363440aa326
+Author: shenlongssd <long.hy.cit20@eiu.edu.vn>
+Date:   Mon Jul 6 14:50:40 2026 +0700
+
+    CI: Add workflow for running tests automatically second
+
+commit 70598fd703a1bf989ffbffede5e86faec4170bd6
+Author: shenlongssd <long.hy.cit20@eiu.edu.vn>
+Date:   Mon Jul 6 14:27:38 2026 +0700
+
+    CI: Add workflow for running tests automatically
+
+commit 9e010b06e05d3ded331f3cf9f756ae76601c43da
+Author: shenlongssd <long.hy.cit20@eiu.edu.vn>
+Date:   Mon Jul 6 13:25:10 2026 +0700
+
+    Build: Set up Electron project with testing
